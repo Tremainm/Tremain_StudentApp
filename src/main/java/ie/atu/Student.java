@@ -13,4 +13,9 @@ public class Student {
         studentCourse = "Business studies";
     }
 
+    public void displayInfo()
+    {
+        System.out.println("Name: " + studentName + " Email: " + studentEmail + " Course: " + studentCourse);
+    }
+
 }
