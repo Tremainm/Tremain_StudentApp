@@ -10,15 +10,22 @@ public class Main {
 
         Student student1 = new Student();
         student1.getUserInput();
+
+        Student student2 = new Student("");
+        student2.getUserInput();
+
+        Student student3 = new Student("","","");
+        student3.getUserInput();
+
         System.out.println("Name: " + student1.getStudentName());
         System.out.println("Email: " + student1.getStudentEmail());
         System.out.println("Course: " + student1.getStudentCourse());
 
-        Student student2 = new Student("");
-        student2.getUserInput();
         student2.displayName();
         System.out.println("Email is: " + student2.getStudentEmail());
         System.out.println("Course is: "+ student2.getStudentCourse());
+
+        student3.displayInfo();
 
         }
     }

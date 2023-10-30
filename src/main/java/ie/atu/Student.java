@@ -21,7 +21,9 @@ public class Student {
 
     public Student(String studentName, String studentEmail, String studentCourse)
     {
-
+        this.studentName = studentName;
+        this.studentEmail = studentEmail;
+        this.studentCourse = studentCourse;
     }
 
 
