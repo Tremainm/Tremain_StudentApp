@@ -14,5 +14,11 @@ public class Main {
         System.out.println("Email: " + student1.getStudentEmail());
         System.out.println("Course: " + student1.getStudentCourse());
 
+        Student student2 = new Student();
+        student2.getUserInput();
+        student2.displayName();
+        System.out.println("Email is: " + student2.getStudentEmail());
+        System.out.println("Course is: "+ student2.getStudentCourse());
+
         }
     }
