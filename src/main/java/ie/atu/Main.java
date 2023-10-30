@@ -5,8 +5,14 @@ package ie.atu;
 public class Main {
     public static void main(String[] args) {
 
+        Student studentDefault = new Student();
+        studentDefault.displayInfo();
+
         Student student1 = new Student();
-        student1.displayInfo();
+        student1.getUserInput();
+        System.out.println("Name: " + student1.getStudentName());
+        System.out.println("Email: " + student1.getStudentEmail());
+        System.out.println("Course: " + student1.getStudentCourse());
 
         }
     }
