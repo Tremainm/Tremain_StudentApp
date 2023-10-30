@@ -64,5 +64,10 @@ public class Student {
         System.out.println("Name: " + studentName + " Email: " + studentEmail + " Course: " + studentCourse);
     }
 
+    public void displayName()
+    {
+        System.out.println("Name is: " + studentName);
+    }
+
 
 }
